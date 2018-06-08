@@ -1,0 +1,26 @@
+<div class="wistia-demo">
+  <div class="jumbotron">
+
+    <!-- Set api-password attribute from Wistia below.
+    See https://wistia.com/support/developers/data-api#getting-started -->
+    <ng-wistia api-password="">
+      <div ng-if="!videoPlaying">
+        <h1>Upload a Video</h1>
+        <p>Choose a video that you wish to upload to Wistia. The upload will begin automatically.</p>
+        <ng-wistia-input></ng-wistia-input>
+        <ng-wistia-error></ng-wistia-error>
+        <ng-wistia-progress></ng-wistia-progress>
+      </div>
+
+      <div ng-if="videoPlaying">
+        <h1>Playing your Video</h1>
+        <p>Your uploaded video has been embedded below. The playback should start automatically.</p>
+      </div>
+
+      <ng-wistia-video on-play="videoPlaying = true"></ng-wistia-video>
+
+    </ng-wistia>
+
+  </div>
+</div>
+

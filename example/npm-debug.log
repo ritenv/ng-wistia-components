@@ -1,0 +1,106 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/riten/.nvm/versions/node/v5.10.0/bin/node',
+1 verbose cli   '/Users/riten/.nvm/versions/node/v5.10.0/bin/npm',
+1 verbose cli   'i' ]
+2 info using npm@3.8.3
+3 info using node@v5.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData ng-wistia-components
+20 silly mapToRegistry name ng-wistia-components
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'ng-wistia-components',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   name: 'ng-wistia-components',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/ng-wistia-components
+25 verbose request uri https://registry.npmjs.org/ng-wistia-components
+26 verbose request no auth needed
+27 info attempt registry request try #1 at 4:13:38 AM
+28 verbose request id dad41b4c1f49923e
+29 http request GET https://registry.npmjs.org/ng-wistia-components
+30 http 404 https://registry.npmjs.org/ng-wistia-components
+31 verbose headers { date: 'Fri, 08 Jun 2018 22:43:39 GMT',
+31 verbose headers   'content-type': 'application/json',
+31 verbose headers   'content-length': '21',
+31 verbose headers   connection: 'keep-alive',
+31 verbose headers   'set-cookie': [ '__cfduid=d0d7b76214c451229235099bc7bbab5541528497818; expires=Sat, 08-Jun-19 22:43:38 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+31 verbose headers   'cache-control': 'max-age=300',
+31 verbose headers   'cf-cache-status': 'MISS',
+31 verbose headers   'cf-ray': '427ee0e44acf8a85-BOM',
+31 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+31 verbose headers   vary: 'accept-encoding, accept',
+31 verbose headers   server: 'cloudflare' }
+32 silly get cb [ 404,
+32 silly get   { date: 'Fri, 08 Jun 2018 22:43:39 GMT',
+32 silly get     'content-type': 'application/json',
+32 silly get     'content-length': '21',
+32 silly get     connection: 'keep-alive',
+32 silly get     'set-cookie': [ '__cfduid=d0d7b76214c451229235099bc7bbab5541528497818; expires=Sat, 08-Jun-19 22:43:38 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+32 silly get     'cache-control': 'max-age=300',
+32 silly get     'cf-cache-status': 'MISS',
+32 silly get     'cf-ray': '427ee0e44acf8a85-BOM',
+32 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+32 silly get     vary: 'accept-encoding, accept',
+32 silly get     server: 'cloudflare' } ]
+33 silly fetchPackageMetaData Error: Not found : ng-wistia-components
+33 silly fetchPackageMetaData     at makeError (/Users/riten/.nvm/versions/node/v5.10.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+33 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/Users/riten/.nvm/versions/node/v5.10.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+33 silly fetchPackageMetaData     at Request._callback (/Users/riten/.nvm/versions/node/v5.10.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+33 silly fetchPackageMetaData     at Request.self.callback (/Users/riten/.nvm/versions/node/v5.10.0/lib/node_modules/npm/node_modules/request/request.js:199:22)
+33 silly fetchPackageMetaData     at emitTwo (events.js:100:13)
+33 silly fetchPackageMetaData     at Request.emit (events.js:185:7)
+33 silly fetchPackageMetaData     at Request.<anonymous> (/Users/riten/.nvm/versions/node/v5.10.0/lib/node_modules/npm/node_modules/request/request.js:1036:10)
+33 silly fetchPackageMetaData     at emitOne (events.js:95:20)
+33 silly fetchPackageMetaData     at Request.emit (events.js:182:7)
+33 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/Users/riten/.nvm/versions/node/v5.10.0/lib/node_modules/npm/node_modules/request/request.js:963:12)
+33 silly fetchPackageMetaData  error for ng-wistia-components@* { [Error: Not found : ng-wistia-components] pkgid: 'ng-wistia-components', statusCode: 404, code: 'E404' }
+34 silly rollbackFailedOptional Starting
+35 silly rollbackFailedOptional Finishing
+36 silly runTopLevelLifecycles Starting
+37 silly runTopLevelLifecycles Finishing
+38 silly install printInstalled
+39 verbose stack Error: Not found : ng-wistia-components
+39 verbose stack     at makeError (/Users/riten/.nvm/versions/node/v5.10.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+39 verbose stack     at CachingRegistryClient.<anonymous> (/Users/riten/.nvm/versions/node/v5.10.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+39 verbose stack     at Request._callback (/Users/riten/.nvm/versions/node/v5.10.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+39 verbose stack     at Request.self.callback (/Users/riten/.nvm/versions/node/v5.10.0/lib/node_modules/npm/node_modules/request/request.js:199:22)
+39 verbose stack     at emitTwo (events.js:100:13)
+39 verbose stack     at Request.emit (events.js:185:7)
+39 verbose stack     at Request.<anonymous> (/Users/riten/.nvm/versions/node/v5.10.0/lib/node_modules/npm/node_modules/request/request.js:1036:10)
+39 verbose stack     at emitOne (events.js:95:20)
+39 verbose stack     at Request.emit (events.js:182:7)
+39 verbose stack     at IncomingMessage.<anonymous> (/Users/riten/.nvm/versions/node/v5.10.0/lib/node_modules/npm/node_modules/request/request.js:963:12)
+40 verbose statusCode 404
+41 verbose pkgid ng-wistia-components
+42 verbose cwd /Users/riten/projects/process.st/ng-wistia-components/example
+43 error Darwin 16.7.0
+44 error argv "/Users/riten/.nvm/versions/node/v5.10.0/bin/node" "/Users/riten/.nvm/versions/node/v5.10.0/bin/npm" "i"
+45 error node v5.10.0
+46 error npm  v3.8.3
+47 error code E404
+48 error 404 Not found : ng-wistia-components
+49 error 404
+50 error 404 'ng-wistia-components' is not in the npm registry.
+51 error 404 You should bug the author to publish it (or use the name yourself!)
+52 error 404 It was specified as a dependency of 'ngWistiaComponentsExample'
+53 error 404 Note that you can also install from a
+54 error 404 tarball, folder, http url, or git url.
+55 verbose exit [ 1, true ]
