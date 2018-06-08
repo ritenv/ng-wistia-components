@@ -2,6 +2,6 @@
 .wistia-demo {
   margin: 20px;
 }
-#wistia_30_progress_bar_text {
+#wistia_30_progress_bar_text, .wistia_not_playable_overlay * {
   font-size: 14px !important;
 }
