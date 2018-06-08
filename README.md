@@ -98,15 +98,35 @@ Using the `video-id` attribute of `ng-wistia-video`, any independent video can b
     </ng-wistia>
 
 
+## Example Included
+
+An example of a simple AngularJS app has been included. To run the example, follow these steps:
+
+Step 1: Clone this repository
+
+    git clone https://github.com/ritenv/ng-wistia-components.git
+
+Step 2: Navigate to the `example` directory
+
+Step 3: Run with npm
+
+    npm start
+
+Step 4: Add your Wistia API Password in `example/home/view.html`
+
+    <ng-wistia api-password="<Your Wistia API Password Here">
+
+Step 5: Point your browser to http://localhost:8000
+
+## Testing
+
+In order to test the components, simply install the devDependencies and run:
+
+    npm test
+
+An HTML report of test cases will be generated at a new directory named `karma_html`.
+
 ## Requirements
 
 * [jQuery](https://jquery.com/) v. 1.6+
 * [blueimp-file-upload](https://github.com/blueimp/jQuery-File-Upload) v. 9+
-
-
-
-
-
-
-
-
