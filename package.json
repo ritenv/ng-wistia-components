@@ -1,7 +1,6 @@
 {
   "name": "ng-wistia-components",
-  "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Wistia video upload and play components for AngularJS",
   "repository": "https://github.com/ritenv/ng-wistia-components",
   "license": "MIT",
